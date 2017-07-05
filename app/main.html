@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Reward Share app</title>
+  <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="stylesheets/photon.min.css">
+</head>
+<body>
+
+<div class="window">
+  <div class="window-content">
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label>Post Title</label>
+          <textarea class="form-control" rows="1" cols="160"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Post Content</label>
+          <textarea class="form-control" rows="7" cols="160"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Tags</label>
+          <textarea class="form-control" rows="1" cols="160"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Share rewards <b>equally</b> between you and these
+            users</label>
+          <textarea class="form-control" rows="1" cols="160"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Private posting key</label>
+          <input type="password" class="form-control"
+                 placeholder="5*******************">
+        </div>
+      </form>
+      <i>Account names should be separated by spaces,
+        commas will be ignored</i>
+    </div>
+  </div>
+  <footer class="toolbar toolbar-footer">
+    <div class="toolbar-actions">
+      <button class="btn btn-warning">
+        Exit
+      </button>
+
+      <button class="btn btn-primary pull-right" id="post-it">
+        Post
+      </button>
+    </div>
+  </footer>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
